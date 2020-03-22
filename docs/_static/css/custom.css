@@ -1,0 +1,21 @@
+/* HEADER */
+div.related {
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #fff;
+    background-color: rgb(var(--bgColorDark));
+    height: 80px;
+    padding: 0 24px;
+}
+
+.body_wrapper {
+    background-color: red;
+    height: 48px;
+}
+
+.wy-body-for-nav {
+    background-color: red;
+}
