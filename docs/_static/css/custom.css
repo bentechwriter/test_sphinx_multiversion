@@ -17,5 +17,19 @@ div.related {
 }
 
 .wy-body-for-nav {
+}
+
+.wy-nav-side {
+    top: 64px;
+}
+
+.header {
     background-color: red;
+    height: 64px;
+    top: 0px;
+}
+
+.footer {
+    background-color: red;
+    height: 64px;
 }
