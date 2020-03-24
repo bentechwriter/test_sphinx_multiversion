@@ -1,5 +1,3 @@
-{% extends "!layout.html" %}
-
 {# TEMPLATE VAR SETTINGS #}
 {%- set url_root = pathto('', 1) %}
 {%- if url_root == '#' %}{% set url_root = '' %}{% endif %}
@@ -13,7 +11,7 @@
 <!DOCTYPE html>
 <!--[if IE 8]><html class="no-js lt-ie9" lang="{{ lang_attr }}" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="{{ lang_attr }}" > <!--<![endif]-->
-<head>
+<head class="header">
   <meta charset="utf-8">
   {{ metatags }}
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
