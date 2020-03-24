@@ -7,70 +7,6 @@ master
 
    page1.rst
    page2.rst
-   page1.rst
-   page2.rst
-   page1.rst
-   page2.rst
-   page1.rst
-   page2.rst
-   page1.rst
-   page2.rst
-   page1.rst
-   page2.rst
-   page1.rst
-   page2.rst
-   page1.rst
-   page2.rst
-   page1.rst
-   page2.rst
-   page1.rst
-   page2.rst
-   page1.rst
-   page2.rst
-   page1.rst
-   page2.rst
-   page1.rst
-   page2.rst
-   page1.rst
-   page2.rst
-   page1.rst
-   page2.rst
-   page1.rst
-   page2.rst
-   page1.rst
-   page2.rst
-   page1.rst
-   page2.rst
-   page1.rst
-   page2.rst
-   page1.rst
-   page2.rst
-   page1.rst
-   page2.rst
-   page1.rst
-   page2.rst
-   page1.rst
-   page2.rst
-   page1.rst
-   page2.rst
-   page1.rst
-   page2.rst
-   page1.rst
-   page2.rst
-   page1.rst
-   page2.rst
-   page1.rst
-   page2.rst
-   page1.rst
-   page2.rst
-   page1.rst
-   page2.rst
-   page1.rst
-   page2.rst
-   page1.rst
-   page2.rst
-   page1.rst
-   page2.rst
 
 some content
 ------------
@@ -194,6 +130,8 @@ text
 text
 
 text
+
+See `some content`_
 
 
 Indices and tables
