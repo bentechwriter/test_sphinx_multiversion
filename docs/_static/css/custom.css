@@ -25,25 +25,31 @@ div.related {
     top: 128px;
 }
 
-.wy-nav-content {
-    top: 128px;
-}
-
-@media screen and (min-width: 1100px) {
-    .wy-nav-content-wrap {
-        background:rgba(0,0,0,0.05)
-    }
-
-    .wy-nav-content {
-        position: fixed;
-        top: 128px;
-        margin: 0;
-        background: #fcfcfc;
-        overflow: auto;
-    }
-}
-
 .footer {
     background-color: red;
     height: 64px;
+}
+
+#headnav {
+    line-height: 1em;
+    font-size: 18px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+    background-color: #ffffff;
+    padding: 0;
+    height: 80px;
+    z-index: 10000;
+    -webkit-transition: background-color 200ms ease-out, padding-top 300ms ease-out;
+    transition: background-color 200ms ease-out, padding-top 300ms ease-out;
+    border-bottom: 3px solid #2ab1ac;
+}
+
+#headnav > div {
+    max-width: 1380px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }

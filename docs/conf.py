@@ -140,4 +140,5 @@ smv_outputdir_format = '{ref.name}'
 # Determines whether remote or local git branches/tags are preferred if their output dirs conflict
 smv_prefer_remote_refs = False
 
+git_url = 'http://www.github.com'
 slack_url = 'http://www.slack.com'
