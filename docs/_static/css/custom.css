@@ -13,7 +13,7 @@ div.related {
 
 .body_wrapper {
     background-color: red;
-    height: 48px;
+    height: 72px;
 }
 
 .wy-body-for-nav {
@@ -23,11 +23,22 @@ div.related {
     top: 64px;
 }
 
+.wy-side-nav-search {
+    left: 256px;
+}
+
 .header {
+    background-color: red;
+    height: 128px;
+    top: 0px;
+}
+
+.header2 {
     background-color: red;
     height: 64px;
     top: 0px;
 }
+
 
 .footer {
     background-color: red;

@@ -1,3 +1,5 @@
+{% extends "!layout.html" %}
+
 {# TEMPLATE VAR SETTINGS #}
 {%- set url_root = pathto('', 1) %}
 {%- if url_root == '#' %}{% set url_root = '' %}{% endif %}
@@ -105,8 +107,8 @@
 <body class="wy-body-for-nav">
 
   {% block extrabody %} {% endblock %}
-  <div class="wy-grid-for-nav">
-    <div class="body_wrapper header"></div>
+  <div class="wy-grid-for-nav fff">
+    <div class="body_wrapper"></div>
     {# SIDE NAV, TOGGLES ON MOBILE #}
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
