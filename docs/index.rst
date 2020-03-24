@@ -1,12 +1,5 @@
-test_sphinxcontrib_versioning
-=============================
-
-Expandable TOC
-
-GitHub, Slack links with icons
-
-version v2.0
---------------
+v1.0
+====
 
 .. toctree::
    :maxdepth: 2
