@@ -1,28 +1,31 @@
-/* HEADER */
-div.related {
+div.header {
     position: fixed;
     z-index: 1;
     display: flex;
     align-items: center;
     width: 100%;
     color: #fff;
-    background-color: rgb(var(--bgColorDark));
+    background-color: red;
     height: 80px;
     padding: 0 24px;
 }
 
-.header {
-    position: fixed;
-    z-index: 1;
-    display: flex;
-    width: 100%;
-    height: 128px;
-    background-color: red;
-    color: green;
+/* Footer styling
+-------------------------------------------------- */
+div.footer {
+  color: white;
+  padding: 6px 25px;
+  background: red;
+  border-top:1px solid #eee;
+  font-size: 12px;
+  width: 100%;
+  max-width: 100%;
+  position: fixed;
+  bottom: 0;
 }
 
 .wy-nav-side {
-    top: 128px;
+    top: 80px;
 }
 
 .footer {
@@ -30,26 +33,16 @@ div.related {
     height: 64px;
 }
 
-#headnav {
-    line-height: 1em;
-    font-size: 18px;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    background-color: #fff;
-    background-color: #ffffff;
-    padding: 0;
-    height: 80px;
-    z-index: 10000;
-    -webkit-transition: background-color 200ms ease-out, padding-top 300ms ease-out;
-    transition: background-color 200ms ease-out, padding-top 300ms ease-out;
-    border-bottom: 3px solid #2ab1ac;
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -250px;
+    visibility: hidden;
 }
 
-#headnav > div {
-    max-width: 1380px;
-    margin: 0 auto;
-    padding-left: 10px;
-    padding-right: 10px;
+.rst-content h1 .headerlink,.rst-content h2 .headerlink,.rst-content .toctree-wrapper p.caption .headerlink,.rst-content h3 .headerlink,.rst-content h4 .headerlink,.rst-content h5 .headerlink,.rst-content h6 .headerlink,.rst-content dl dt .headerlink,.rst-content p.caption .headerlink,.rst-content table>caption .headerlink,.rst-content .code-block-caption .headerlink {
+    visibility: hidden;
+    font-size: 14px
+    top: -250px;
 }

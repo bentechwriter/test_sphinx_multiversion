@@ -11,7 +11,6 @@
 <!DOCTYPE html>
 <!--[if IE 8]><html class="no-js lt-ie9" lang="{{ lang_attr }}" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="{{ lang_attr }}" > <!--<![endif]-->
-<div id="headnav">
 <head>
   <meta charset="utf-8">
   {{ metatags }}
@@ -102,10 +101,9 @@
   {%- endblock %}
   {%- block extrahead %} {% endblock %}
 </head>
-</div>
 
 <body class="wy-body-for-nav">
-
+  <div class="header"></div>
   {% block extrabody %} {% endblock %}
   <div class="wy-grid-for-nav fff">
     <div class="body_wrapper"></div>
@@ -234,6 +232,6 @@
   {% endif %}
 
   {%- block footer %} {% endblock %}
-
+  <div class="footer"></div>
 </body>
 </html>
