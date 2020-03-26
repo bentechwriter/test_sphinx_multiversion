@@ -46,3 +46,22 @@ a.anchor {
     font-size: 14px
     top: -250px;
 }
+
+.wy-breadcrumbs {
+    color: black;
+    z-index: 999;
+}
+
+.git_link {
+    position: relative;
+    align: right;
+}
+
+.slack_link {
+    position: relative;
+    align: right;
+}
+
+.rst-versions {
+    bottom: 64px;
+}
