@@ -131,7 +131,7 @@ text
 
 text
 
-See ShortAnchor_
+See `some content`_
 
 
 Indices and tables
